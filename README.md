@@ -1,6 +1,6 @@
 # **Chronos \- A Mechanical Pomodoro Timer and Clock**
 
-![Final clock render](main/README Images/Final Clock Render.png)
+![Final clock render](README Images/Final Clock Render.png)
 
 [OnshapeCAD Link](https://cad.onshape.com/documents/4e46eab36ada7087591254e1/w/535417db20a99f0700b6b619/e/2bade0778d34ed4b7359ccd4?renderMode=0&uiState=6a28f4a51491e7cf1e2738ea)
 
