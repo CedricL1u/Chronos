@@ -8,7 +8,7 @@
 
 # **Overview**
 
-Chronos is a 7-Segment mechanical display that is supposed to function as a pomodoro timer,  clock, or as a regular timer. It’s equipped with speakers that play an alarm noise when time is up and also random sound effects throughout the timer. The speakers let the user know how many pomodoro cycles they have completed after each cycle. They also help Chronos function as an alarm clock when it is put into clock mode. On the top there are two buttons and a rotary encoder which serve as inputs to control Chronos. Chronos is powered by a ESP32-C3 on a custom PCB that drives all the electronics. This device is named Chronos because in Greek it means the quantitative measurement of time that ticks away on a clock.
+Chronos is a 7-Segment mechanical display that is supposed to function as a pomodoro timer,  clock, or as a regular timer. It’s equipped with speakers that play an alarm noise when time is up and also random sound effects throughout the timer. The speakers let the user know how many pomodoro cycles they have completed after each cycle. They also help Chronos function as an alarm clock when it is put into clock mode. On the top there are two buttons and a rotary encoder which serve as inputs to control it. Chronos is powered by a ESP32-C3 on a custom PCB that drives all the electronics. This device is named Chronos because in Greek it means the quantitative measurement of time that ticks away on a clock.
 
 # **Why does this exist?**
 
