@@ -23,6 +23,7 @@ The clock works through four display modules each with seven segments. Each of t
 Each of these racks are driven by a cam and follower mechanism that pushes each rack individually. There is a stack of 14 cams and each follower has 2 cams. One to retract it and one to extend it. Depending on the angle of the shaft different cams are extended and different cams are retracted which control the number displayed. Numbers are displayed at a 36 degree increment of the shaft. For example at 0 degrees the number 0 is displayed and at 72 degrees the number 2 is displayed.
 
 ![](README%20Images/pomoclock%20cams.png)
+
 ![](README%20Images/CAM-breakdown)  
 
 The shaft is driven by a servo that is geared to it. 
