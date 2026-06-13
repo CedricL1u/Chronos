@@ -17,23 +17,32 @@ Chronos was mainly built to function as a pomodoro timer, but since it has four 
 # **Mechanics**
 
 The clock works through four display modules each with seven segments. Each of these 7 segments are connected to a rack and pinion which drives each segment and controls when each segment is displayed and not displayed.  
-![Rack & Pinion Breakdown][README%20Images/rack-and-pinion-breakdown.png]  
-Each of these racks are driven by a cam and follower mechanism that pushes each rack individually. There is a stack of 14 cams and each follower has 2 cams. One to retract it and one to extend it. Depending on the angle of the shaft different cams are extended and different cams are retracted which control the number displayed. Numbers are displayed at a 36 degree increment of the shaft. For example at 0 degrees the number 0 is displayed and at 72 degrees the number 2 is displayed.  
-![][README%20Images/pomoclock%20cams.png]
-![][README%20Images/CAM-breakdown]  
-The shaft is driven by a servo that is geared to it.   
-![][README%20Images/pomoclock%20gears.png]
+
+![Rack & Pinion Breakdown](README%20Images/rack-and-pinion-breakdown.png)  
+
+Each of these racks are driven by a cam and follower mechanism that pushes each rack individually. There is a stack of 14 cams and each follower has 2 cams. One to retract it and one to extend it. Depending on the angle of the shaft different cams are extended and different cams are retracted which control the number displayed. Numbers are displayed at a 36 degree increment of the shaft. For example at 0 degrees the number 0 is displayed and at 72 degrees the number 2 is displayed.
+
+![](README%20Images/pomoclock%20cams.png)
+![](README%20Images/CAM-breakdown)  
+
+The shaft is driven by a servo that is geared to it. 
+
+![](README%20Images/pomoclock%20gears.png)
 
 # **Electronics**
 
 This device is powered by a custom PCB I made in KiCAD that utilizes a Seed Studio XIAO ESP32-C3. On my board I have 4 servo pins which are driven by PWM signals from my microcontroller and the 5V power. There are also two MAX98357A Audio Drive ICs used to control the speakers on my device. I also have a 8-bit IO Expander IC because there weren’t enough GPIO pins on my microcontroller. The 8-Bit IO Expander communicates with my microcontroller through I2C and controls my rotary encoder switch and my two linear switches. The PCB is powered by a 8A 5V AC-DC unit that I plug into the wall and connect into my barrel jack connector. From there the power goes into a reverse polarity mosfet circuit that blocks current if the power supply is connected backwards. This P channel mosfet is then connected to my bulk 2200uF bulk capacitor that acts like a power reservoir to prevent brownouts in case the servos suddenly stall.  
-![][README%20Images/pcb%20layout.png]  
-![][README%20Images/pcb%20w%20components.png]
+
+![](README%20Images/pcb%20layout.png)
+
+![](README%20Images/pcb%20w%20components.png)
 
 # **Control**
 
 There are 3 methods of input into the clock. A rotary encoder switch, and two cherry mx style linear mechanical keyboard switches. When you rotate the white knob in the middle you can change the duration of the timer when you are in the pomodoro or timer mode. When you click it you can pause or resume the clock. The right button lets you switch between clock mode, pomodoro mode, and timer mode. The left button lets you skip between pomodoro cycles.  
-![][README%20Images/rotary%20encoder.png]
+
+![](README%20Images/rotary%20encoder.png)
 EC11EA5 Rotary Encoder Switch  
-![][[README%20Images/linear%20switch.png]
+
+![](README%20Images/linear%20switch.png)
 Cherry MX Style Linear Mechanical Keyboard Switch 
