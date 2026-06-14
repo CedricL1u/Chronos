@@ -1,0 +1,25 @@
+Product Name,Product Description,Product Link,Unit Price,Qty,Line Total,Running Total
+PJ-063BH Power Barrel Jack,Barrel Jack Connector,https://www.digikey.com/en/products/detail/same-sky-formerly-cui-devices/PJ-063BH/2161209,$1.63000,1,$1.63,$1.63
+MAX98357A,Audio Driver IC,https://www.digikey.com/en/products/detail/analog-devices-inc-maxim-integrated/MAX98357AETE-T/4936122,$3.73000,2,$7.46,$9.09
+AS03104MR-F-WP-R ,Speaker,https://www.digikey.com/en/products/detail/pui-audio-inc/AS03104MR-F-WP-R/17488219,$9.20000,2,$18.40,$27.49
+ Schottky Diode ,Schottky Diode,https://www.digikey.com/en/products/detail/mcc-micro-commercial-components/SM5819PL-TP/1793253,$0.21000,1,$0.21,$27.70
+PCF8574ADWR I2C I/O Expander ,IO Expander,https://www.digikey.com/en/products/detail/texas-instruments/PCF8574ADWR/574749,$1.59000,1,$1.59,$29.29
+10µF 25V Ceramic Cap,,https://www.digikey.com/en/products/detail/murata-electronics/GRM188R61E106KA73D/9867922,$0.26000,4,$1.04,$30.33
+0.1µF 25V Ceramic Cap ,,https://www.digikey.com/en/products/detail/kemet/C0603C104K3RACTU/416044,$0.10000,4,$0.40,$30.73
+10nF 50V Ceramic Cap,,https://www.digikey.com/en/products/detail/kemet/C0603C103K5RACTU/3838393,$0.10000,4,$0.40,$31.13
+2200µF 16V Electrolytic Cap ,Panasonic / EEU-FR1C222  ,https://www.digikey.com/en/products/detail/panasonic-electronic-components/EEU-FR1C222/2433536,$1.67000,1,$1.67,$32.80
+3-Pin Servo Header ,,https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/61300311121/4846825,$0.13000,4,$0.52,$33.32
+13-Pin Header ,,https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/61301311121/4846847,$0.75000,1,$0.75,$34.07
+AOD403 P-Channel MOSFET ,For reverse polarity circuit,https://www.digikey.com/en/products/detail/alpha-omega-semiconductor-inc/AOD403/1855873,$2.05000,1,$2.05,$36.12
+"10kΩ Resistor 0603 (R1, R3–R12)",,https://www.digikey.com/en/products/detail/yageo/RC0603FR-0710KL/726880,$0.02500,15,$0.38,$36.50
+210kΩ Resistor 0603 (R2),,https://www.digikey.com/en/products/detail/yageo/RC0603FR-07210KL/727052,$0.10000,2,$0.20,$36.70
+DigiKey Shipping,,,$8.49,1,$8.49,$45.19
+DigiKey Tariff,,,$8.32,1,$8.32,$53.51
+DigiKey Sales Tax,,,$4.61,1,$4.61,$58.12
+MG995 Metal Gear Servo  4-Pack,,https://www.amazon.com/dp/B07NQJ1VZ2,$19.82000,1,$19.82,$77.94
+ALITOVE 5V 8A 40W Power Supply,,https://www.amazon.com/dp/B078RZBL8X,$20.39000,1,$20.39,$98.33
+PCBS,,https://jlcpcb.com,$0.64000,5,$3.20,$101.53
+Solder Paste Stencil,,https://jlcpcb.com,$7.11000,1,$7.11,$108.64
+JLCPCB Shipping (net of discount),,,$28.23,1,$28.23,$136.87
+JLCPCB Taxes,,,$0.84,1,$0.84,$137.71
+XIAO ESP32-C3 ,,https://www.seeedstudio.com/Seeed-XIAO-ESP32C3-p-5431.html,$10.69,1,$10.69,$148.40
