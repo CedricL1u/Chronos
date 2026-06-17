@@ -47,3 +47,13 @@ EC11EA5 Rotary Encoder Switch
 
 ![](README%20Images/linear%20switch.png)
 Cherry MX Style Linear Mechanical Keyboard Switch 
+
+# **Bill of Materials**
+
+[](BOM.csv)
+
+# **Assembly Instructions**
+
+After you've printed all you're parts you want to first start by putting all of your fikkiwers into the front part of the casing. After you've done that you should align all of your cams on your shaft and place them all into their with your spacers. Once you've done that you need to put the cams into the followers. This can be a bit tricky, a tip I found useful was to wiggle the cams and move the followers when the cams get stuck. This can take a while but after you've done that you need to put the top plate on and screw it in, this will lock the shaft in place. After that mount the servo holder onto the back case plate and screw the servo onto the servo holder. Then screw in the servo gear and attach the back case plate into the rest of the case and align the followers such that they fit inside the hole. Repeat this 3 more times and you should have all 4 display modules. Once you have your display modules, you should first wire everything up. Wire all the jumper cables and servo wires from the pcb to their respective components. Then screw in the PCB and mount all 4 display modules, the 2 speakers, and then screw in the back plate for the case and you should be all good to go. 
+
+
