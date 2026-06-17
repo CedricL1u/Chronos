@@ -50,7 +50,7 @@ Cherry MX Style Linear Mechanical Keyboard Switch
 
 # **Bill of Materials**
 
-[](./BOM.csv)
+![](BOM.csv)
 
 # **Assembly Instructions**
 
