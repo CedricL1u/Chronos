@@ -50,7 +50,7 @@ Cherry MX Style Linear Mechanical Keyboard Switch
 
 # **Bill of Materials**
 
-![](BOM.csv)
+[BOM File](https://github.com/CedricL1u/Chronos/blob/main/BOM.csv)
 
 # **Assembly Instructions**
 
